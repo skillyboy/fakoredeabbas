@@ -1898,6 +1898,45 @@ section {
   background: #d1ecf1;
   color: #0c5460;
 }
+.badge-current {
+  background: #d4edda;
+  color: #155724;
+}
+.badge-remote {
+  background: #e2d9f3;
+  color: #6f42c1;
+}
+
+/*--------------------------------------------------------------
+# About Certifications
+--------------------------------------------------------------*/
+.about-certifications {
+  border-left: 3px solid #47b2e4;
+  padding-left: 14px;
+}
+.cert-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  color: #444;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+.cert-item i {
+  color: #47b2e4;
+  font-size: 18px;
+  flex-shrink: 0;
+}
+.cert-badge {
+  background: #fff3cd;
+  color: #856404;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 20px;
+  white-space: nowrap;
+}
 
 /*--------------------------------------------------------------
 # Contact Cards (improved)
